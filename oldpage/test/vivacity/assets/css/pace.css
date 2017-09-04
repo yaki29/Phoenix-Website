@@ -1,0 +1,35 @@
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace .pace-progress {
+  background-color: #323232;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+/* Styles for page elements while loading */
+body .zbz-side-nav,
+body.pace-running .zbz-side-nav,
+body .zbz-slide-keeper,
+body.pace-running .zbz-slide-keeper {
+  opacity: .2;
+}
+body.pace-done .zbz-side-nav,
+body.pace-done .zbz-slide-keeper {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
