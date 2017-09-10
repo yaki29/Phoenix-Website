@@ -6,9 +6,10 @@
     3. Embedded
     4. Quarks
 
-## Events
-###  1.Torque
-###  2.LFR
+
+### Events
+    1. Torque
+    2. LFR
 
 # Mini Projects 
     1. Image Encryption
@@ -16,3 +17,4 @@
     3. Racer Drone
     4. Security Breach Notification
    
+
