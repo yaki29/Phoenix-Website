@@ -504,7 +504,7 @@ color: white;
 }
 .col3
 {
-margin-top:-160px;
+margin-top:-190px;
 width:200px;
 float:right;
 color: white;
@@ -849,13 +849,13 @@ color:#fff;
 {
 		background-attachment: scroll;
 		background-color: #16a085;
-		background-image:url(../img/bottom-3200.png);
+		/*background-image:url(../img/top-3200.png);*/
 		background-position: top center;
 		background-repeat: repeat-x;
-		background-size: 3200px 460px;
+		background-size: 300px 460px;
 		color: rgba(255, 255, 255, 0.8);
-		margin-top: -60px;
-		padding: calc(460px + 6em) 0 10em 0;
+		margin-top: 0px;
+		padding-top: 0px;
 		position: relative;
 		text-align: center;
 
